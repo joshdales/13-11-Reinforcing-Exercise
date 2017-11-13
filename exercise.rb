@@ -12,6 +12,8 @@ def draw_shape(options)
 
 end
 
+stars = { rows: 4,
+          cols: 4,
+          char: '*' }
 
-
-puts draw_shape(your_code_goes_here)
+puts draw_shape(stars)
