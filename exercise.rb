@@ -17,3 +17,9 @@ stars = { rows: 4,
           char: '*' }
 
 puts draw_shape(stars)
+
+zeros = { rows: 3,
+          cols: 9,
+          char: '0'}
+
+puts draw_shape(zeros)
